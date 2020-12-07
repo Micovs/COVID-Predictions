@@ -93,6 +93,14 @@ p {
   margin-inline-end: 0px;
 }
 
+@media screen and (max-width: 500px){
+.tableauPlaceholder {
+  margin-bottom: 1em;
+  padding: 4rem 5rem;
+  }
+}
+
+
 /* The styles for the parallax
 .hero {
   position: relative;
