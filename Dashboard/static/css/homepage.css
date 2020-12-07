@@ -1,113 +1,107 @@
 * {
-  box-sizing: border-box;
-  font-family: Ubuntu, sans-serif;
+	box-sizing: border-box;
+	font-family: Ubuntu, sans-serif;
 }
 
 html,
 body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: "Kufam", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #606c71;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: "Kufam", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #606c71;
 }
-@media screen and (max-width: 42em)
-.project-name {
-    font-size: 1.75rem;
+@media screen and (max-width: 42em) {
+	.project-name {
+		font-size: 1.75rem;
+	}
 }
 .project-name {
-  margin-top: 0;
-  margin-bottom: 0.1rem;
+	margin-top: 0;
+	margin-bottom: 0.1rem;
 }
 .page-header {
-  color: #fff;
-  text-align: center;
-  background-color: #54ce91;
-  background-image: linear-gradient(120deg, #2b5580, #34af8a);
+	color: #fff;
+	text-align: center;
+	background-color: #54ce91;
+	background-image: linear-gradient(120deg, #2b5580, #34af8a);
 }
-/* h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-} */
+@media screen and (max-width: 42em) {
+	h1 {
+		font-size: 2em;
+		margin: 0.67em 0;
+	}
+}
+
 h1 {
-  color: white;
-  display: block;
-  font-size: 2em;
-  padding-top: 50;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+	color: white;
+	display: block;
+	font-size: 2em;
+	padding-top: 50;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
 }
 
 h2 {
-  color: white;
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+	color: white;
+	display: block;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
 }
 
-@media screen and (max-width: 42em)
-.btn {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
+@media screen and (max-width: 42em) {
+	.btn {
+		display: block;
+		width: 100%;
+		padding: 0.75rem;
+		font-size: 0.9rem;
+	}
 }
 
 .btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255,255,255,0.7);
-  background-color: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+	display: inline-block;
+	margin-bottom: 1rem;
+	color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.08);
+	border-color: rgba(255, 255, 255, 0.2);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0.3rem;
+	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
-@media screen and (max-width: 42em)
-.main-content{
-    padding: 2rem 1rem;
-    font-size: 1rem;
+@media screen and (max-width: 42em) {
+	.main-content {
+		padding: 2rem 1rem;
+		font-size: 1rem;
+	}
 }
 
 .main-content p {
-  margin-bottom: 1em;
-  padding: 1rem 3rem;
+	margin-bottom: 1em;
+	padding: 1rem 3rem;
 }
 
 p {
-  display: block;
-  box-align: center;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+	display: block;
+	box-align: center;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 
-@media screen and (max-width: 500px){
-.tableauPlaceholder {
-  margin-bottom: 1em;
-  padding: 4rem 5rem;
-  }
+@media screen and (max-width: 500px) {
+	.tableauPlaceholder {
+		margin-bottom: 1em;
+		padding: 4rem 5rem;
+	}
 }
-
-
-/* The styles for the parallax
-.hero {
-  position: relative;
-  height: 550px;
-  padding: 20px;
-  margin: 0;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
-} */
-
