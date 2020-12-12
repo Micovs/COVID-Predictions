@@ -112,3 +112,10 @@ p {
 }
 }
 
+/* @media screen and (max-width: 42em) {
+	.ny {
+		margin-bottom: 1em;
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+} */
