@@ -24,9 +24,10 @@ body {
 }
 .page-header {
 	color: #fff;
+	padding: 48px 64px;
 	text-align: center;
 	background-color: #54ce91;
-	background-image: linear-gradient(120deg, #2b5580, #34af8a);
+	background-image: linear-gradient(120deg, #9d9fb3, #0d0b5a);
 }
 @media screen and (max-width: 42em) {
 	h1 {
@@ -39,7 +40,6 @@ h1 {
 	color: white;
 	display: block;
 	font-size: 2em;
-	padding-top: 50;
 	margin-block-start: 0.67em;
 	margin-block-end: 0.67em;
 	margin-inline-start: 0px;
@@ -99,9 +99,16 @@ p {
 	margin-inline-end: 0px;
 }
 
-@media screen and (max-width: 500px) {
+ @media screen and (max-width: 42em)  {
 	.tableauPlaceholder {
 		margin-bottom: 1em;
 		padding: 4rem 5rem;
 	}
 }
+@media screen {
+.plot-container{
+	margin-bottom: 1em;
+	padding: rem 4rem;
+}
+}
+

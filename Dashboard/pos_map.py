@@ -8,7 +8,9 @@ import plotly.io as pio
 
 cov_cases = pd.read_csv("data/cov_cases.csv")
 fig = go.Figure()
+
 fig = px.choropleth(cov_cases,
+                   color_continuous_scale = 'tealgrn',
                    locations='abbrev',
                    color='positive',
                    hover_name = 'state',
@@ -26,7 +28,7 @@ showcoastlines = False))
 )
 
 pio.write_html(fig,
-               file='pos_cases.html',
+               file='pos10_cases.html',
                config={'displayModeBar': False},
                auto_open=True,
                include_plotlyjs='cdn',
