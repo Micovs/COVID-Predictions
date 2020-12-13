@@ -10,7 +10,7 @@ cov_cases = pd.read_csv("data/cov_cases.csv")
 fig = go.Figure()
 
 fig = px.choropleth(cov_cases,
-                   color_continuous_scale = 'tealgrn',
+                   color_continuous_scale = 'pubu',
                    locations='abbrev',
                    color='positive',
                    hover_name = 'state',
@@ -19,7 +19,7 @@ fig = px.choropleth(cov_cases,
 
 layout = (
 fig.update_layout(
-title_text = 'Spread of Covid-19 in the United States',
+title_text = 'Positive Covid-19 cases in the United States',
 title_x = 0.5,
 geo_scope = 'usa',
 geo=dict(
@@ -28,7 +28,7 @@ showcoastlines = False))
 )
 
 pio.write_html(fig,
-               file='pos10_cases.html',
+               file='pos9_cases.html',
                config={'displayModeBar': False},
                auto_open=True,
                include_plotlyjs='cdn',
