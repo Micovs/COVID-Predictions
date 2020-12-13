@@ -98,11 +98,13 @@ p {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 }
+@media screen {
 .site-footer {
     padding-top: 2rem;
     margin-top: 2rem;
 	border-top: solid 1px #eff0f1;
 	padding-left: 2rem;
+}
 }
 
  @media screen and (max-width: 42em)  {
@@ -114,7 +116,8 @@ p {
 @media screen {
 .plot-container{
 	margin-bottom: 1em;
-	padding: rem 4rem;
+	padding-left: 9rem;
+	padding-bottom: 2rem;
 }
 }
 
