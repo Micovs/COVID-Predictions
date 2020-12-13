@@ -98,6 +98,12 @@ p {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 }
+
+h5 {
+	text-align: center;
+	text-decoration: underline;	
+}
+
 @media screen {
 .site-footer {
     padding-top: 2rem;
@@ -120,4 +126,10 @@ p {
 	padding-bottom: 2rem;
 }
 }
+@media screen {
+	.plot2-container{
+		/* margin-bottom: 1em; */
+		/* padding-left: 9rem; */
+	}
+	}
 
