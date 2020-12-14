@@ -114,9 +114,9 @@ h5 {
 }
 
  @media screen and (max-width: 42em)  {
-	.tableauPlaceholder {
-		margin-bottom: 1em;
-		padding: 4rem 5rem;
+	#tableau {
+		margin-bottom: 0em;
+		padding: 4rem 2rem;
 	}
 }
 @media screen {
@@ -126,10 +126,10 @@ h5 {
 	padding-bottom: 2rem;
 }
 }
-@media screen {
-	.plot2-container{
-		/* margin-bottom: 1em; */
-		/* padding-left: 9rem; */
+@media screen{
+	#plotrf{
+		padding-left: 4rem;	
 	}
-	}
+}
+
 
