@@ -24,22 +24,15 @@
     <a href="index.html" class="btn">Home</a>
     <a href="" class="btn">Model</a>
     <a href="projection.html" class="btn">Projection</a>
-    <a href="tab.html" class="btn">Tableau</a>
+    <!-- <a href="tab.html" class="btn">Tableau</a> -->
     <a href="https://github.com/LisaHarrison08/COVID-Predictions" class="btn" target="_blank">Github</a>
     <a href="https://project3-dashboard.herokuapp.com/index.html" class="btn" target="_blank">COVID Trends</a>
   </header>
 
   <main id="content" class="main-content" role="main">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <p>Understanding the spread of COVID-19 is a critical task to mitigate the virus. The global spread of the virus has overwhelmed health systems, and caused widespread social and economic disruption. What we know so far is there are multiple social and environmental factors influencing the spread.  Our focus was to predict the number of ventilators needed as Coronavirus cases rise.  Data was sourced from the <a href="https://covidtracking.com"><strong>COVID Tracking Project</strong></a> and <a href="https://www.cdc.gov"><strong>CDC</strong></a>for training and testing the models. All our data comes from state and territory public health authorities or official statements from state officials and included daily positive cases, hospitalizations, deaths, and number of patients on ventilators. After cleaning the data, we tested and evaluated different machine learning models, including linear regression, random forest, and neural networks.</p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
     
       <h5> Actual vs Predicted on Ventilator - Linear Regression Model</h5>
       <!--First Row Charts -->
@@ -60,41 +53,17 @@
 
       </div> 
 
-    <!--Second Row Charts -->
-    <div class="row">
-
-      <!--First Column in this Row-->
-      <div class="col-6">
-        <div class="box">
-          <h5> Predicted Ventilator use for NY - Linear Regression</h5>
-          <img src="/static/images/NYventilator.jpg" alt="NY Ventilator Prediction">
-        </div>
-      </div>
-
-      <!--Second Column in this Row-->
-      <div class="col-6">
-        <div class="box">
-          <h5> Predicted Ventilator use for USA - Linear Regression</h5>
-          <img src="/static/images/USventilator.jpg" alt="National data Ventilator Prediction">
-        </div>
-      </div>
-
-
       <!--Second Row Charts -->
       <div class="row">
 
         <!--First Column in this Row-->
         <div class="col-6" id="us">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.</p>
+          <p>The New York state data was sourced from the COVID Tracking Project.  The data was filtered to include a small subset for testing and analysis. The dates range from September until December. A linear regression model was applied to train and test a small number of variables: positive cases, currently hospitalised, number of patients currently in ICU and patients currently on ventilator. </p>
         </div>
 
         <!--Second Column in this Row-->
         <div class="col-6" id="us">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.</p>
+          <p>The US national data was sourced the COVID Tracking Project. A linear regression model was applied to train and test a number of variables: positive cases, the increase in positive cases, currently hospitalised, number of patients currently in ICU, recovered patients and patients currently on ventilator.</p>
         </div>
 
         <footer class="site-footer">
@@ -103,7 +72,7 @@
           <span class="site-footer-owner">
             <i>View and download our project projections
               <a href="https://github.com/LisaHarrison08/COVID-Predictions" target="_blank">on GitHub,</a>
-              <a href="/contact" target="_blank">Contact Us</a>
+              <!-- <a href="/contact" target="_blank">Contact Us</a> -->
             </i>
           </span>
         </footer>
