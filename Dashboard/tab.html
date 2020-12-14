@@ -6,7 +6,8 @@
   <title>COVID Predictions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/spacelab/bootstrap.min.css" integrity="sha384-F1AY0h4TrtJ8OCUQYOzhcFzUTxSOxuaaJ4BeagvyQL8N9mE4hrXjdDsNx249NpEc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/spacelab/bootstrap.min.css"
+    integrity="sha384-F1AY0h4TrtJ8OCUQYOzhcFzUTxSOxuaaJ4BeagvyQL8N9mE4hrXjdDsNx249NpEc" crossorigin="anonymous">
   <!--Google Fonts Link -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;669&display=swap" rel="stylesheet">
@@ -19,59 +20,58 @@
     <h1 class="project-name">The impact of COVID-19 in the United States</h1>
     <h2 class="project-tagline">
       A review of COVID-19 statistics and projecting future trends</h2>
-    
-      <a href="index.html" class="btn">Home</a>
-      <a href="model.html" class="btn">Model</a>
-      <a href="projection.html" class="btn">Projection</a>
-      <a href="tab.html" class="btn">Tableau</a> 
-      <a href="https://github.com/LisaHarrison08/COVID-Predictions" class="btn" target="_blank">Github</a> 
-      <a href="https://project3-dashboard.herokuapp.com/index.html" class="btn" target="_blank">COVID Trends</a>
+
+    <a href="index.html" class="btn">Home</a>
+    <a href="model.html" class="btn">Model</a>
+    <a href="projection.html" class="btn">Projection</a>
+    <a href="tab.html" class="btn">Tableau</a>
+    <a href="https://github.com/LisaHarrison08/COVID-Predictions" class="btn" target="_blank">Github</a>
+    <a href="https://project3-dashboard.herokuapp.com/index.html" class="btn" target="_blank">COVID Trends</a>
   </header>
 
   <main id="tableau">
-      <!-- Creates the Overall Grid -->
-  <div class="container">
- <!--First Row Charts -->
- <div class="row">
-  <div class="col-lg-12">
-    <div class="box ml-6 mt-3 px-0">
-   <div class='tableauPlaceholder' id='viz1607365522281' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CovidCases_16073142974870&#47;COVIDCases&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CovidCases_16073142974870&#47;COVIDCases' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CovidCases_16073142974870&#47;COVIDCases&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1607365522281');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1227px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  </div>
-  </div>
-</div>
+    <!-- Creates the Overall Grid -->
+      <!--First Row Charts -->
+      <div class="row">
+        <div class="col-6">
+          <embed type="text/html" src="static/tableau/death10.html" width="80%" height="800">
+        </div>
 
- <!--Second Column in this Row-->
- <div class="col-lg-12">
-  <div class="box ml-6 mt-3 px-0">
-   <div class='tableauPlaceholder' id='viz1607365671637' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CovidHospitalized&#47;Pie&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CovidHospitalized&#47;Pie' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;CovidHospitalized&#47;Pie&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1607365671637');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
- </div>
- </div>
-   </div>
+        <div class="col-6">
+          <embed type="text/html" src="static/tableau/positive10.html" width="80%" height="800">
+        </div>
+      </div>
+       
+      <!--Second Row Charts -->
+      <div class="row">
+        <div class="col-6">
+          <embed type="text/html" src="static/tableau/deathbubble.html" width="80%" height="500">
+        </div>
+  
+        <div class="col-6">
+          <embed type="text/html" src="static/tableau/positivebubble.html" width="80%" height="500">
+        </div>
+      </div>
+      
+    </div>
+
     <footer class="site-footer">
       <span class="site-footer-owner"><a href="#top">Back to Top</a></span>
       <br>
       <span class="site-footer-owner">
         <i>View and download our raw projections
           <a href="https://github.com/LisaHarrison08/COVID-Predictions" target="_blank">on GitHub,</a>
-          <a href="/contact" target="_blank">Contact Us</a>
+          <!-- <a href="/contact" target="_blank">Contact Us</a> -->
         </i>
       </span>
     </footer>
   </main>
-  
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <!-- ***** New code, load D3 for the map -->
-  <script src="https://d3js.org/d3.v4.js"></script>
-  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-  <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
-  <!-- ***** -->
-  <script src="./static/js/app.js"></script>
-  <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+
 
 </body>
 
 </html>
-
-
