@@ -16,7 +16,7 @@ Understanding the spread of COVID-19 is a critical task to mitigate the virus. T
 * Ingrid Deukou
 
 #### Visualizations
-* Lisa Harrison - Choropleth Map
+* Lisa Harrison - Choropleth Map & Plotly
 * Stojancho Micov - Plotly
 * Lori Ward - Tableau
 
