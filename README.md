@@ -1,5 +1,5 @@
 
-### Deployed dashboard to Heroku. Page can be viewed via this link: https://covid-predictions.herokuapp.com
+### Deployed dashboard to Heroku. Page can be viewed via this link: https://covid-us.herokuapp.com/
 
 # COVID-Predictions
 
